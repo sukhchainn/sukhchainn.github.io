@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "ARCADECLASSIC";
-  src: url("assets/fonts/arcadeclassic/ARCADECLASSIC.ttf") format("woff2");
+  src: url("assets/fonts/arcadeclassic-font/ARCADECLASSIC.ttf") format("woff2");
        /*url("/fonts/OpenSans-Regular-webfont.woff") format("woff");*/
 }
 
@@ -51,6 +51,7 @@ main {
 }
 
 img {
+	width: calc(100% - 25px;);
 	padding: 15px;
 	margin-top: 25px;
 	margin-left: 25px;
