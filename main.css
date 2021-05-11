@@ -51,7 +51,7 @@ main {
 }
 
 img {
-	width: calc(100% - 25px;);
+	width: calc(100% - 50px);
 	padding: 15px;
 	margin-top: 25px;
 	margin-left: 25px;
