@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Pixeboy";
+  src: url("assets/fonts/pixeboy-font/Pixeboy-z8XGD.ttf") format("woff2");
+       /*url("/fonts/OpenSans-Regular-webfont.woff") format("woff");*/
+}
+@font-face {
+  font-family: "Gamepixies";
+  src: url("assets/fonts/gamepixies-font/Gamepixies-8MO6n.ttf") format("woff2");
+       /*url("/fonts/OpenSans-Regular-webfont.woff") format("woff");*/
+}
+@font-face {
+  font-family: "ElfBoy";
+  src: url("assets/fonts/elf-boy-classic-font/Elfboyclassic-PKZgZ.ttf") format("woff2");
+       /*url("/fonts/OpenSans-Regular-webfont.woff") format("woff");*/
+}
+@font-face {
+  font-family: "ARCADECLASSIC";
+  src: url("assets/fonts/arcadeclassic/ARCADECLASSIC.ttf") format("woff2");
+       /*url("/fonts/OpenSans-Regular-webfont.woff") format("woff");*/
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+section {
+	width: 300px;
+	height: calc(100vh - 50px);
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	top: 0;
+	overflow-x: hidden;
+}
+main {
+	height: calc(100vh - 50px);
+	scroll-behavior: smooth;
+	overflow: auto;
+	float: right;
+	width: calc(100% - 325px);
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 50px;
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
+#menu {
+	position: sticky;
+	top: 0;
+	height: calc(100%-500px);
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
+
+img {
+	padding: 15px;
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font: 27px Gamepixies;
+	color: black;
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
+
+h1 {
+	display: inline;
+	margin: 0px;
+	padding-right: 10px;
+	border-bottom: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+	font-family: ARCADECLASSIC;
+}
+h2 {
+	display: inline;
+	margin: 0px;
+	padding-right: 10px;
+	border-bottom: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+	font-family: ARCADECLASSIC;
+}
+p {
+	padding: 5px;
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+	font-family: Gamepixies;
+	font-size: 20px;
+	font-style: normal;
+	color: black;
+}
+
+button {
+	display: block;
+	width: 90%;
+	margin: 5%;
+	color: black;
+	/*background: #1dc7fa;*/
+	font-family: ARCADECLASSIC;
+	font-size: 23px;
+	background: transparent;
+	padding: 2px;
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
