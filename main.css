@@ -4,8 +4,8 @@
        /*url("/fonts/OpenSans-Regular-webfont.woff") format("woff");*/
 }
 @font-face {
-  font-family: "ARCADECLASSIC";
-  src: url("assets/fonts/gamepixies-font/ARCADECLASSIC-font.ttf") format("woff2");
+  font-family: "ISLAND";
+  src: url("assets/fonts/island-font/ISLAND.ttf") format("woff2");
        /*url("/fonts/OpenSans-Regular-webfont.woff") format("woff");*/
 }
 
@@ -68,7 +68,7 @@ h1 {
 	padding-right: 10px;
 	border-bottom: 10px solid black;
 	border-image: url(assets/images/black_pixel_border.png) 10 round;
-	font-family: ARCADECLASSIC;
+	font-family: ISLAND;
 }
 h2 {
 	display: inline;
@@ -76,7 +76,7 @@ h2 {
 	padding-right: 10px;
 	border-bottom: 10px solid black;
 	border-image: url(assets/images/black_pixel_border.png) 10 round;
-	font-family: ARCADECLASSIC;
+	font-family: ISLAND;
 }
 p {
 	padding: 5px;
@@ -94,7 +94,7 @@ button {
 	margin: 5%;
 	color: black;
 	/*background: #1dc7fa;*/
-	font-family: ARCADECLASSIC;
+	font-family: ISLAND;
 	font-size: 23px;
 	background: transparent;
 	padding: 2px;
