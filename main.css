@@ -15,7 +15,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	overflow: scroll;
+	overflow: hidden;
 }
 section {
 	width: 300px;
