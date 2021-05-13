@@ -15,22 +15,23 @@
 body {
 	margin: 0px;
 	padding: 0px;
+	overflow: scroll;
 }
 section {
 	width: 300px;
 	height: calc(100vh - 50px);
 	margin-top: 20px;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
 	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
 	top: 0;
-	overflow: scroll;
 }
 main {
 	height: calc(100vh - 50px);
 	scroll-behavior: smooth;
-	overflow: auto;
 	float: right;
 	width: calc(100% - 325px);
 	margin-top: 20px;
