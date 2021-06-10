@@ -84,6 +84,8 @@ main {
 }
 #date1 {
 	margin-top: 20px;
+	border-bottom: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
 }
 
 
