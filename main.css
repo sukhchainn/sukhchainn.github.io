@@ -59,6 +59,7 @@ main {
 	width: 5px;
 }
 
+/*General style classes*/
 ._div {
 	border: 10px solid black;
 	border-image: url(assets/images/black_pixel_border.png) 10 round;
@@ -73,6 +74,7 @@ main {
 	justify-content: space-between;
 }
 
+/*Mobile style classes*/
 #mobile_body {
 	display: flex;
 	justify-content: center;
@@ -93,7 +95,23 @@ main {
 	border-image: url(assets/images/black_pixel_border.png) 10 round;
 }
 
+/*Project style classes*/
+#projects {
+	margin-top: 100px;
+}
+.project {
+	display: inline-flex;
+	width: 100%;
+	height: auto;
+	margin-bottom: 25px;
+}
+#user_details {
+	display: inline-flex;
+	width: 100%;
+	justify-content: safe flex-start;
+}
 
+/*Mian style classes*/
 #profile {
 	width: calc(100% - 50px);
 	padding: 15px;
