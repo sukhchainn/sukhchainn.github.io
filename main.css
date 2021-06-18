@@ -105,6 +105,9 @@ main {
 	height: auto;
 	margin-bottom: 25px;
 }
+.project_details {
+	margin: 20px;
+}
 #user_details {
 	display: inline-flex;
 	width: 100%;
