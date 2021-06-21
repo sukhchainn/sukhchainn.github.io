@@ -176,6 +176,32 @@ button:hover {
 	background-size: 100% 100%;
 	background-position: center;
 }
+
+
+._button {
+	display: block;
+	align-self: center;
+	width: 90%;
+	margin: 5%;
+	color: black;
+	/*background: #1dc7fa;*/
+	font-family: ISLAND;
+	font-size: 23px;
+	background: transparent;
+	padding: 2px;
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
+._button:hover {
+	color: white;
+	padding: 12px;
+	border: none;
+	transition: 0.3;
+	background-repeat: no-repeat;
+	background-image: url(assets/images/black_pixel_border_background2.png);
+	background-size: 100% 100%;
+	background-position: center;
+}
 a {
   text-decoration: none;
 }
