@@ -17,9 +17,9 @@
 			<a href="#!island"><button class="_button">ISLAND</button></a>
 			<a href="#!openDating"><button class="_button">Open Dating</button></a>
 			<a href="#!pixels"><button class="_button">2D Pixels</button></a>
-			<a href="#!credits"><button class="_button">Credits</button></a>
 			<a href="#!work"><button class="_button">Work Profile</button></a>
-			<a href="#!test"><button class="_button">Test</button></a>
+			<!-- <a href="#!test"><button class="_button">Test</button></a> -->
+			<a href="#!credits"><button class="_button">Credits</button></a>
 		</div>
 	</section>
 	<main data-simplebar>
@@ -31,25 +31,25 @@
 	app.config(function($routeProvider) {
 	    $routeProvider
 	    .when("/", {
-	        templateUrl : "/about_me.htm"
+	        templateUrl : "pages/about_me.htm"
 	    })
 	    .when("/island", {
-	        templateUrl : "/island.htm"
+	        templateUrl : "pages/island.htm"
 	    })
 	    .when("/openDating", {
-	        templateUrl : "open_dating.htm"
+	        templateUrl : "pages/open_dating.htm"
 	    })
 	    .when("/pixels", {
-	        templateUrl : "pixels.htm"
-	    })
-	    .when("/credits", {
-	        templateUrl : "credits.htm"
+	        templateUrl : "pages/pixels.htm"
 	    })
 	    .when("/work", {
-	        templateUrl : "work_profile.htm"
+	        templateUrl : "pages/work_profile.htm"
 	    })
 	    .when("/test", {
-	        templateUrl : "test.htm"
+	        templateUrl : "pages/test2.htm"
+	    })
+	    .when("/credits", {
+	        templateUrl : "pages/credits.htm"
 	    });
 	});
 	</script>
