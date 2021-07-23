@@ -70,7 +70,7 @@ main {
 ._inline {
 	display: flex; 
 	width: 100%; 
-	height: 40px; 
+	/*height: 40px; */
 	justify-content: space-between;
 }
 
@@ -150,6 +150,9 @@ p {
 	font-size: 20px;
 	font-style: normal;
 	color: black;
+}
+span {
+	font-family: Gamepixies;	
 }
 sub {
 	font-family: Gamepixies;
