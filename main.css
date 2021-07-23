@@ -151,6 +151,9 @@ p {
 	font-style: normal;
 	color: black;
 }
+sub {
+	font-family: Gamepixies;
+}
 
 button {
 	display: block;
