@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "Gamepixies";
+  src: url("assets/fonts/gamepixies-font/Gamepixies-8MO6n.ttf") format("woff2");
+       /*url("/fonts/OpenSans-Regular-webfont.woff") format("woff");*/
+}
+@font-face {
+  font-family: "ISLAND";
+  src: url("assets/fonts/island-font/ISLAND.ttf") format("woff2");
+       /*url("/fonts/OpenSans-Regular-webfont.woff") format("woff");*/
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+section {
+	width: 275px;
+	height: calc(100vh - 50px);
+	margin-top: 20px;
+	overflow-y: none;
+	scroll-behavior: smooth;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	top: 0;
+}
+main {
+	height: calc(100vh - 50px);
+	scroll-behavior: smooth;
+	float: right;
+	width: calc(100% - 300px);
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 50px;
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
+#menu {
+	position: sticky;
+	top: 0;
+	overflow: unset;
+	height: calc(100vh - 250px);
+	margin-top: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
+.simplebar-scrollbar {
+	margin: 5px;
+	border-radius: 0px;
+	/*background: grey;*/
+	width: 5px;
+}
+
+/*General style classes*/
+._div {
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
+._no_border {
+	border: none;
+}
+._inline {
+	display: flex; 
+	width: 100%; 
+	height: 40px; 
+	justify-content: space-between;
+}
+
+/*Mobile style classes*/
+#mobile_body {
+	display: flex;
+	justify-content: center;
+}
+#mobile {
+	width: 400px;
+	margin: 100px;
+	padding: 20px;
+}
+#date1 {
+	margin-top: 20px;
+}
+#date_details {
+	display: inline-flex;
+	width: 100%;
+	justify-content: space-between;
+	border-bottom: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
+
+/*Project style classes*/
+#projects {
+	margin-top: 100px;
+}
+.project {
+	display: inline-flex;
+	width: 100%;
+	height: auto;
+	margin-bottom: 25px;
+}
+.project_details {
+	margin: 20px;
+}
+#user_details {
+	display: inline-flex;
+	width: 100%;
+	justify-content: safe flex-start;
+}
+
+/*Mian style classes*/
+#profile {
+	width: calc(100% - 50px);
+	padding: 15px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font: 27px Gamepixies;
+	color: black;
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
+
+h1 {
+	display: inline;
+	margin: 0px;
+	padding-right: 10px;
+	border-bottom: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+	font-family: ISLAND;
+}
+h2 {
+	display: inline;
+	margin: 0px;
+	padding-right: 10px;
+	border-bottom: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+	font-family: ISLAND;
+}
+p {
+	padding: 5px;
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+	font-family: Gamepixies;
+	font-size: 20px;
+	font-style: normal;
+	color: black;
+}
+span {
+	font-family: Gamepixies;	
+}
+sub {
+	font-family: Gamepixies;
+}
+
+button {
+	display: block;
+	align-self: center;
+	width: 90%;
+	margin: 5%;
+	color: black;
+	cursor: pointer;
+	/*background: #1dc7fa;*/
+	font-family: ISLAND;
+	font-size: 23px;
+	background: transparent;
+	padding: 2px;
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
+/*button:hover {
+	color: white;
+	padding: 12px;
+	border: none;
+	background-repeat: no-repeat;
+	background-image: url(assets/images/black_pixel_border_background2.png);
+	background-size: 50% 100%;
+	background-position: center;
+  transition: background 0.5s;
+}
+*/
+
+._button {
+	display: block;
+	align-self: center;
+	width: 90%;
+	margin: 5%;
+	color: black;
+	/*background: #1dc7fa;*/
+	font-family: ISLAND;
+	font-size: 23px;
+	background: transparent;
+	padding: 2px;
+	border: 10px solid black;
+	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
+._button:hover {
+	color: white;
+	padding: 12px;
+	border: none;
+	transition: 0.3;
+	background-repeat: no-repeat;
+	background-image: url(assets/images/black_pixel_border_background2.png);
+	background-size: 100% 100%;
+	background-position: center;
+}
+a {
+  text-decoration: none;
+}
