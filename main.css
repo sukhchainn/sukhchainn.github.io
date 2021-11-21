@@ -49,11 +49,13 @@ main {
 	}
 	#menu {height: calc(100vh - 250px);}
 }
+@media screen and (max-width: 480px) {
+	#menu {width: 100%;}
+}
 #menu {
 	position: sticky;
 	top: 0;
 	overflow: unset;
-	width: 100%;
 	margin-top: 20px;
 	margin-left: 25px;
 	margin-right: 25px;
