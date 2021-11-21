@@ -2,11 +2,13 @@
   font-family: "Gamepixies";
   src: url("assets/fonts/gamepixies-font/Gamepixies-8MO6n.ttf") format("woff2");
        /*url("/fonts/OpenSans-Regular-webfont.woff") format("woff");*/
+  /* filter: contrast(1); */
 }
 @font-face {
   font-family: "ISLAND";
   src: url("assets/fonts/island-font/ISLAND.ttf") format("woff2");
        /*url("/fonts/OpenSans-Regular-webfont.woff") format("woff");*/
+  /* filter: contrast(1); */
 }
 
 * {
@@ -15,37 +17,43 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	overflow: hidden;
 }
 section {
 	width: 275px;
-	height: calc(100vh - 50px);
 	margin-top: 20px;
 	overflow-y: none;
 	scroll-behavior: smooth;
-	position: fixed;
-	z-index: 1;
 	top: 0;
 	left: 0;
 	top: 0;
 }
 main {
-	height: calc(100vh - 50px);
 	scroll-behavior: smooth;
-	float: right;
-	width: calc(100% - 300px);
-	margin-top: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	padding: 50px;
-	border: 10px solid black;
+	margin: 25px;
+	padding: 5%;
+	border: 10px solid rgb(68, 58, 58);
 	border-image: url(assets/images/black_pixel_border.png) 10 round;
+}
+@media screen and (min-width: 480px) {
+	body {overflow: hidden;}
+	section {
+		position: fixed;
+		z-index: 1;
+		height: calc(100vh - 50px);
+	}
+	main {
+		float: right; 
+		height: calc(100vh - 50px);
+		width: calc(100% - 300px);
+		padding: 50px;
+	}
+	#menu {height: calc(100vh - 250px);}
 }
 #menu {
 	position: sticky;
 	top: 0;
 	overflow: unset;
-	height: calc(100vh - 250px);
+	width: 100%;
 	margin-top: 20px;
 	margin-left: 25px;
 	margin-right: 25px;
